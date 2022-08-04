@@ -1,0 +1,34 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.item{
+    width: 100px;
+    height: 100px;
+    background: blue;
+    color: antiquewhite;
+    margin: 10px;
+}
+.Container-1{
+    height: 400px;
+    display: flex;
+    justify-content:end;
+    background-color: aquamarine;
+    /* align-items: flex-start; */
+    flex-direction:column-reverse;
+    align-items:center;
+}
+/* .item:nth-last-of-type(1){
+    align-self:flex-start
+}
+.item:nth-last-of-type(2){
+    align-self:center
+}
+.item:nth-last-of-type(3){
+    align-self: flex-end;
+} */

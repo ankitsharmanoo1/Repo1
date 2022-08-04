@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Flex box</title>
+</head>
+<style>
+    h1{padding: 10px;}
+    body{
+       font-family: Arial, Helvetica, sans-serif;
+       font-size: 20px;
+       padding: 0 20px 30px 0;
+    }
+    .items{
+        width: 75px;
+        height: 75px;
+        background-color: aqua;
+        border:2px solid black;
+        text-align:center;
+        font-size:larger ;
+        font-weight: bolder;
+        text-align: center;
+        padding: 10px;
+        margin: 5px;}
+    .container{
+         /* display: block; */
+         display: flex;
+         width: 100%;
+         height: 500px;
+         border: 2px solid blueviolet;
+
+         /* flex-direction: row-reverse; */
+         flex-wrap: wrap; 
+         /* flex-wrap: wrap-reverse; */
+         align-content: space-between;
+         flex-flow: wrap;
+    }
+    .item1
+    {
+        /* flex-grow: ; */
+        background-color:blanchedalmond;
+    }
+    .item2
+    {
+        flex: 3 2;
+
+        background-color:pink;
+    }
+    .item3
+    {
+        /* flex-basis: 200px;
+        flex-grow: 2; */
+        background-color:yellow;
+    
+    }
+    .item4
+    {
+        background-color:burlywood;
+        /* order: 8; */
+    }
+    .item5
+    {
+        flex-shrink: 2;
+        background-color:brown;
+    }
+    .item6
+    {
+        background-color:palegreen;
+        /* order: 10; */
+    }
+    .item7
+    {
+        background-color:gold;
+    }
+    .item8
+    {
+        background-color:red;
+    }
+    .item9
+    {
+        background-color:blueviolet;
+    }
+    .item1
+    0
+    {
+        background-color:grey;}
+   
+</style>
+<body>
+    <h1>CSS Flexbox</h1>
+    <div class="container">
+         <div class="items item1">One</div>
+         <div class="items item2">Two</div>
+         <div class="items item3">Three</div>
+         <div class="items item4">Four</div>
+         <div class="items item5">Five</div>
+         <div class="items item6">Six</div>
+         <div class="items item7">Seven</div>
+         <div class="items item8">Eight</div>
+         <div class="items item9">Nine</div>
+         <div class="items item10">Ten</div>
+
+    </div>
+</body>
+</html>
