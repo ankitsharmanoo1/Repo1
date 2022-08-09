@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style3.css">
+ <title>Flex-box project</title>
+</head>
+<body>
+<section class="showcase">
+    <header>
+        <div class="logo">Travel</div>
+        <div class="toggle"></div>
+    </header>
+    <video src="image/Mountains.mp4" loop autoplay></video> 
+    <div class="overlay"></div>
+    <div class="text"> 
+        <h2>Never Stop</h2>
+        <h3>Exploring The World</h3>
+        <p>Cupidatat eiusmod sunt ex ut sit culpa nulla consequat sint quis ad. Et minim aliquip non nulla sint fugiat laborum aliqua nisi est reprehenderit labore proident. Amet in in ad id nostrud nulla dolor labore veniam anim in non aliquip esse. Sit laborum commodo eu id occaecat pariatur. Nulla anim non laboris excepteur.
+       </p><br><br>
+       <a href="#">Explore </a>
+    </div>
+    <ul class="social">
+        <li><a href="#"><img src="image/facebook.png" alt="img"></a></li>
+        <li><a href="#"><img src="image/insta.png" alt="img"></a></li>
+        <li><a href="#"><img src="image/twitter-50.png" alt="img"></a></li>
+    </ul>
+</section>
+<div class="menu">
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Destination</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+</div>
+<script>
+    const menuToggle = document.querySelector('.toggle')
+    const showcase = document.querySelector('.showcase')
+
+    menuToggle.addEventListener('click',() =>  
+    {menuToggle.classList.toggle('active') 
+    showcase.classList.toggle('active'
+    )})
+</script>
+</body>
+</html>
