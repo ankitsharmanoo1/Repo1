@@ -1,0 +1,24 @@
+#Header{
+    background-color: orange;
+    padding: 19px;
+}
+#Main{
+    background-color: pink;
+}
+#Main ul{
+    list-style: none;
+    margin: 0;
+} 
+#Main ul li{
+    display:inline;
+}
+#Content{ 
+    background-color: antiquewhite;
+}
+#sidebar{
+    background-color: aquamarine;
+}
+#footer
+{
+    background-color: orange;
+}
