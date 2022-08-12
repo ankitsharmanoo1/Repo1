@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@500;600;700&family=Uchen&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Cormorant SC', serif;
+    font-family: 'Uchen', serif ;
+}
+body{
+    /* background-image:url(/image/Project-1/couple-3098951_1920.jpg); */
+}
+
+.flex-container{
+     display: flex;
+     flex-direction:row-reverse;
+     justify-content:space-around;
+     align-items:baseline;
+}
+.flex-container div a{
+    display: flex;
+    font-size: 1em;
+    background:black;
+    text-decoration: solid;
+     padding:10px 30px;
+   color:antiquewhite;
+   margine-top:10px;
+  text-transform: uppercase;
+ letter-spacing: 3px;
+  transition: 0.2s;
+ }
+.flex-container div a :hover{
+    letter-spacing: 6px;
+}
+video{
+      width: 100%;
+      height: 100%; 
+     /* position:absolute;
+     z-index: -1;
+     object-fit: cover;
+} */
+}
+#header1 h2{
+    color: darkturquoise;
+    background-color: black;
+    font-weight: 200;
+}
+h3{
+    color:antiquewhite;
+    background-color: black;
+    padding: 10px 20px;
+}
+#main-1 h4{
+    color:antiquewhite;
+    background-color: black;
+}
+#main-1 p{
+    box-sizing: border-box;
+    padding: 10px 20px;
+    border: 2px solid black;
+}
+#img img{
+   box-sizing: border-box;
+    padding: 10px 20px;
+    margin: 60px 10px;
+    border: 2px solid skyblue;
+    background-color: skyblue;
+}
+#img2 img{
+    box-sizing: border-box;
+    padding: 10px 20px;
+    margin: 60px 10px;
+    border: 2px solid skyblue;
+    background-color: skyblue;
+}
+#img3 img{
+    box-sizing: border-box;
+    padding: 10px 20px;
+    margin: 60px 10px;
+    border: 2px solid yellow;
+    background-color: greenyellow;
+}
+#img4 img{
+    box-sizing: border-box;
+    padding: 10px 20px;
+    margin: 60px 10px;
+    border: 2px solid lightpink;
+    background-color:burlywood;
+}
+#img5 img{
+    box-sizing: border-box;
+    padding: 10px 20px;
+    margin: 60px 10px;
+    border: 2px solid burlywood;
+    background-color:lightsteelblue;
+}
+#main-2 h4{
+    color:antiquewhite;
+    background-color: black;
+}
+#main-2 p{
+    box-sizing: border-box;
+    padding: 10px 20px;
+    border: 2px solid black;
+}
+#main-3 h4{
+    color:antiquewhite;
+    background-color: black;
+}
+#main-3 p{
+    box-sizing: border-box;
+    padding: 10px 20px;
+    border: 2px solid black;
+}
+#main-4 h4{
+    color:antiquewhite;
+    background-color: black;
+}
+#main-4 p{
+    box-sizing: border-box;
+    padding: 10px 20px;
+    border: 2px solid black;
+}
+#main-5 h4{
+    color:antiquewhite;
+    background-color: black;
+}
+#main-5 p{
+    box-sizing: border-box;
+    padding: 10px 20px;
+    border: 2px solid black;
+}
+#footer1 h2{
+    color: skyblue;
+    background-color: black;
+}
+#footer2 h3{
+    color: whitesmoke;
+    background: #000;
+}
+#footer2 p{
+    box-sizing: border-box;
+    padding: 10px 20px;
+    border: 2px solid black;
+    margin: 10px;
+}
+#footer3 h3{
+    color: antiquewhite;
+    background: black;
+}
+#footer3 p{
+    box-sizing: border-box;
+    padding: 10px 20px;
+    border: 2px solid black;
+    margin: -15px;
+}
+#footer4 h3{
+    color: antiquewhite;
+    background-color: black;
+}
+#footer4 p{
+    box-sizing: border-box;
+    padding: 10px 20px;
+    border: 2px solid black;
+}
+.flex-container2 div a{
+    display: flex;
+    flex-direction: row;
+    font-size: 1em;
+    background:whitesmoke;
+     padding:10px 30px;
+   color:black;
+   text-decoration: solid;
+   margine-top:10px;
+  text-transform: uppercase;
+ letter-spacing: 3px;
+  transition: 0.2s;
+ }
+ .flex-container2 div a :hover{
+    letter-spacing: 6px;
+}
+.flex-container3 div a{
+    display: flex;
+    flex-direction: row;
+    font-size: 1em;
+    background:whitesmoke;
+    text-decoration: solid;
+     padding:10px 30px;
+   color:black;
+   margine-top:10px;
+  text-transform: uppercase;
+ letter-spacing: 3px;
+  transition: 0.2s;
+ }
+ .flex-container3 div a :hover{
+    letter-spacing: 6px;
+}
